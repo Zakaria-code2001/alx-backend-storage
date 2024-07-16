@@ -1,0 +1,5 @@
+// creating a mongodb document with a value
+DB_NAME="$1"
+school = { "name" : "Holberton school"}
+db.DB_NAME.insert(school)
+db.DB_NAME.find()
